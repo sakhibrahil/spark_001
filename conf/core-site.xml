@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+ <property>
+  <name>"fs.AbstractFileSystem.wasb.Impl"</name>
+  <value>"org.apache.hadoop.fs.azure.Wasb"</value> 
+ </property>
+
+ <property>
+  <name>"fs.azure.account.key.training005.blob.core.windows.net"</name>
+  <value>"5lM/dAr/sdPbLepuszg2kyJvu21sqb5PbVyrsmf6P8YRjgJuBUsdSv4z0C2ZSRflWrkeGJ/xQSBp+AStRA+RxQ=="</value>
+ </property>
+
+ <property>
+   <name>"fs.azure"</name>                    
+   <value>"org.apache.hadoop.fs.azure.NativeAzureFileSystem"</value>
+ </property>
+
+<property>
+    <name>"fs.azure.enable.append.support"</name>
+    <value>"true"</value>
+ </property>
+</configuration>
