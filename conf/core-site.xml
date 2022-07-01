@@ -16,9 +16,3 @@
    <name>"fs.azure"</name>                    
    <value>"org.apache.hadoop.fs.azure.NativeAzureFileSystem"</value>
  </property>
-
-<property>
-    <name>"fs.azure.enable.append.support"</name>
-    <value>"true"</value>
- </property>
-</configuration>
