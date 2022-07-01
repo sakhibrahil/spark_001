@@ -16,3 +16,4 @@
    <name>"fs.azure"</name>                    
    <value>"org.apache.hadoop.fs.azure.NativeAzureFileSystem"</value>
  </property>
+i have made changes in slave
